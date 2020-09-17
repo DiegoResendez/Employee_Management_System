@@ -1,9 +1,10 @@
 {
-  "name": "employeetracker",
+  "name": "employeedirectory",
   "version": "1.0.0",
   "description": "command line application that will allow users to add departments, roles, employees, view all departments, roles employees, update employee roles.",
   "main": "index.js",
   "scripts": {
+    "start": "npm start",
     "test": "npm test"
   },
   "repository": {
@@ -20,7 +21,11 @@
   },
   "homepage": "https://github.com/DiegoResendez/Employee_Management_System#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
     "inquirer": "^7.3.3",
-    "mysql": "^2.18.1"
-  }
+    "mysql": "^2.18.1",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {}
 }
