@@ -12,7 +12,7 @@ if( !config.DB_PASSWORD ) {
 
         fs.writeFile( "./.env", `DB_PASSWORD="${password}"`, (err) => {
             if( err ) throw err;
-            console.log( "Password configuration file created!" );
+            console.log( "Password file created." );
         });
 
     });

@@ -136,17 +136,17 @@ function addEmployee() {
 
             inquirer.prompt([
                 {
-                    message: "What is the employee's first name?",
+                    message: "What's the employee's first name?",
                     type: "input",
                     name: "first_name"
                 },
                 {
-                    message: "What is the employee's last name?",
+                    message: "What's the employee's last name?",
                     type: "input",
                     name: "last_name"
                 },
                 {
-                    message: "What is the employee's role?",
+                    message: "What's the employee's role?",
                     type: "list",
                     name: "role_id",
                     choices: roles.map(role => {
@@ -157,7 +157,7 @@ function addEmployee() {
                     })
                 },
                 {
-                    message: "Who is the employee's manager?",
+                    message: "Who's the employee's manager?",
                     type: "list",
                     name: "manager_id",
                     choices: managers.map(manager => {
